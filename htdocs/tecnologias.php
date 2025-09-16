@@ -8,26 +8,32 @@
     <body>
 
         <header>
-            <h1>Tecnologias web que uso en mis desarrollos</h1>
+            <?php
+
+                require("cabecera.inc.php");
+             ?> 
         </header>
 
         <nav>
-            <a href="principal.html">principal.html</a>
+            <a href="principal.php">principal.php</a>
         </nav>
        
         <section>
              <p>
-                <ol>
+                <ul>
                     <li>Github</li>
                     <li>Google</li>
                     <li>Visual Studio Code</li>
                     <li>Bootstrap</li>
-                </ol>
+                </ul>
             </p>
         </section>
         
         <footer>
-            <p>Página creada por Belén Escrich &copy; 2025</p>
+              <?php
+
+                require("footer.inc.php");
+             ?> 
         </footer>
     </body>
 </html>

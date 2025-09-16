@@ -6,13 +6,25 @@
     </head>
 
     <body>
+        
+        <style>
+           header{
+                background-color: lightblue;
+                text-align: center;
+                padding: 10px;
+           }
+            
+       </style>
         <header>
-            <h1>Mi presentación</h1>
+             <?php
+
+                require("cabecera.inc.php");
+             ?> 
         </header>
         <nav>
-            <a href="tecnologias.html">tecnologias.html</a> |
-            <a href="rrss.html">rrss.html</a> |
-            <a href="tecnologias2.html">tecnologias2.html</a> |
+            <a href="tecnologias.php">tecnologias.php</a> |
+            <a href="rrss.php">rrss.php</a> |
+            <a href="count.php">count.php</a> |
             <a href="http://www.gmail.com">beleneezz@gmail.com</a>
 
         </nav>
@@ -44,7 +56,10 @@
         </section>
         
         <footer>
-            <p>Página creada por Belén Escrich &copy; 2025</p>
+            <?php
+
+                require("footer.inc.php");
+             ?> 
         </footer>
         
 
